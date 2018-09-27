@@ -23,7 +23,7 @@
     LPPZListViewController * vc1 = [[LPPZListViewController alloc] init];
     LPPZListViewController * vc2 = [[LPPZListViewController alloc] init];
     self.subViewControllers = @[vc1,vc2];
-    self.MinHeaderViewHeight = 30;
+    self.MinHeaderViewHeight = 40;
     
     LPPZExampleHeaderView * headerView = [[LPPZExampleHeaderView alloc] init];
     self.headerView = headerView;
