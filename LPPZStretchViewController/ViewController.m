@@ -41,7 +41,7 @@
     [self.view addSubview:acitonButton];
     [acitonButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
-        make.height.width.mas_equalTo(100);
+        make.height.width.mas_equalTo(80);
     }];
 }
 -(void)Onclick{
