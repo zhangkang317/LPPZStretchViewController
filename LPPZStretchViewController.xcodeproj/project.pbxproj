@@ -34,6 +34,7 @@
 		65813427215CE088008C2B5F /* LPPZExampleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65813424215CE088008C2B5F /* LPPZExampleHeaderView.m */; };
 		65813428215CE088008C2B5F /* LPPZListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65813425215CE088008C2B5F /* LPPZListViewController.m */; };
 		65813429215CE088008C2B5F /* LPPZExampleViewControlller.m in Sources */ = {isa = PBXBuildFile; fileRef = 65813426215CE088008C2B5F /* LPPZExampleViewControlller.m */; };
+		65BE44FC215CF2BD005DA686 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65BE44FB215CF2BC005DA686 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		65813424215CE088008C2B5F /* LPPZExampleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPZExampleHeaderView.m; sourceTree = "<group>"; };
 		65813425215CE088008C2B5F /* LPPZListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPZListViewController.m; sourceTree = "<group>"; };
 		65813426215CE088008C2B5F /* LPPZExampleViewControlller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPZExampleViewControlller.m; sourceTree = "<group>"; };
+		65BE44FB215CF2BC005DA686 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		658133AC215CDFA1008C2B5F = {
 			isa = PBXGroup;
 			children = (
+				65BE44FA215CF2BC005DA686 /* Gif */,
 				65813420215CE088008C2B5F /* Demon */,
 				6581341E215CE02A008C2B5F /* UIView+LPPZExtension.h */,
 				6581341D215CE02A008C2B5F /* UIView+LPPZExtension.m */,
@@ -265,6 +268,14 @@
 			path = Demon;
 			sourceTree = "<group>";
 		};
+		65BE44FA215CF2BC005DA686 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				65BE44FB215CF2BC005DA686 /* demo.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +381,7 @@
 			files = (
 				658133C5215CDFA3008C2B5F /* LaunchScreen.storyboard in Resources */,
 				658133C2215CDFA3008C2B5F /* Assets.xcassets in Resources */,
+				65BE44FC215CF2BD005DA686 /* demo.gif in Resources */,
 				6581341C215CDFFB008C2B5F /* README.md in Resources */,
 				65813411215CDFFB008C2B5F /* LICENSE in Resources */,
 				658133C0215CDFA1008C2B5F /* Main.storyboard in Resources */,
